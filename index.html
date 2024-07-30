@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Main">
+        <div class="headerdiv">
+            <div id="logo">
+                <Button class="logobtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="log" viewBox="0 0 32 32" fill-rule="evenodd"
+                        height="32" width="32" fill="white">
+                        <path
+                            d="M12.349 21l-.39.982h.773L12.349 21zm2.29-10.224V7.909c0-.457-.21-.668-.648-.668h-.713v4.204h.713c.438 0 .648-.212.648-.668zm11.698-9.019H5.36c-1.702 0-2.328.627-2.328 2.328v20.526l.025.537c.038.372.047.732.392 1.14a7.23 7.23 0 0 0 .387.302l.533.248 10.329 4.327c.537.245.76.342 1.15.333h.003c.39.008.613-.088 1.15-.333l10.329-4.327.533-.248.387-.302c.345-.41.353-.77.392-1.14a5.28 5.28 0 0 0 .025-.537V4.086c0-1.702-.628-2.328-2.328-2.328h-.002zm-9.181 3.952h1.735v11.404h-1.735V5.709zm.117 14.181h1.01v3.45h-.952v-1.982l-.882 1.35h-.02l-.877-1.34v1.972h-.937v-3.45h1.01l.823 1.337.823-1.337zm-5.73-14.181h2.723c1.41 0 2.108.7 2.108 2.118v3.03c0 1.417-.697 2.118-2.108 2.118h-.988v4.139h-1.735V5.709zm-4.729 0h3.859v1.58H8.549v3.225h2.043v1.58H8.549v3.438h2.157v1.58H6.814V5.709zm3.317 17.169c-.365.3-.873.532-1.498.532-1.075 0-1.878-.74-1.878-1.785v-.01c0-1.005.788-1.795 1.858-1.795.607 0 1.035.187 1.4.503l-.562.675c-.247-.207-.493-.325-.833-.325-.498 0-.882.418-.882.947v.01a.91.91 0 0 0 .937.957c.232 0 .41-.05.552-.143v-.418h-.68v-.7h1.587v1.553zm1.765-3.012h.922l1.468 3.475h-1.025l-.252-.617h-1.332l-.247.617h-1.005l1.468-3.475h.002zm3.874 9.231l-4.862-1.672h9.931l-5.069 1.672zm5.947-5.755h-2.8v-3.45h2.775v.813h-1.828v.523h1.657v.755h-1.657v.547h1.854v.813-.002zm-1.907-8.249V7.729c0-1.417.697-2.118 2.108-2.118h.843c1.41 0 2.092.685 2.092 2.102v2.33h-1.702V7.811c0-.457-.212-.668-.648-.668h-.292c-.453 0-.665.212-.665.668v7.2c0 .457.212.668.665.668h.325c.438 0 .648-.212.648-.668v-2.573h1.702v2.655c0 1.417-.697 2.119-2.108 2.119h-.86c-1.41 0-2.108-.7-2.108-2.119zm5.165 7.184c0 .705-.557 1.123-1.395 1.123-.612 0-1.193-.192-1.617-.572l.532-.637a1.77 1.77 0 0 0 1.118.413c.257 0 .395-.088.395-.237v-.01c0-.143-.113-.222-.582-.33-.735-.168-1.302-.375-1.302-1.085v-.01c0-.642.508-1.105 1.337-1.105.587 0 1.045.158 1.42.458l-.478.675c-.315-.222-.66-.34-.967-.34-.232 0-.345.098-.345.222v.01c0 .158.118.227.597.335.793.173 1.287.428 1.287 1.075v.01.003z">
+                        </path>
+                    </svg>
+
+                    <i class="bi bi-chevron-down">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </i>
+
+                </Button>
+                <div class="justline"></div>
+
+                <img class="logo__img" fetchpriority="high" height="32" alt="Store"
+                    src="https://media.graphassets.com/qAiDvosPSFGqJxTVuY7h" width="54">
+
+            </div>
+            <div id="headopts">
+                <Table id="hoptt">
+                    <tr id="hoptr">
+                        <td id="hoptd">
+                            <input type="button" class="hdbtn" value="Support">
+                        </td>
+                        <td id="hoptd">
+                            <input type="button" class="hdbtn" value="Distribute">
+                        </td>
+                    </tr>
+                </Table>
+            </div>
+
+
+            <div class="accdiv">
+                <Table class="acct">
+                    <tr class="accr">
+                        <td class="accd">
+                            <i class="bi1 bi-globe2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="bi bi-globe2"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                                </svg>
+                            </i>
+                        </td>
+                        <td class="accd">
+                            <i class="bi1 bi-person">
+                                <div class="accshade">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="bi bi-person"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                                    </svg>
+                                </div>
+                            </i>
+                        </td>
+                        <td class="accd">
+                            <input type="button" class="Downloadbtn" value="Download">
+                        </td>
+
+                    </tr>
+
+                </Table>
+
+            </div>
+
+        </div>
+        <div class="searchbardiv">
+            <div class="search">
+                <div class="searchicon">
+                    <i class="bi bi-search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-search"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                    </i>
+                </div>
+                <input type="text" name="search" id="searchbar" placeholder="Search store">
+            </div>
+            <div class="accdiv">
+                <Table class="acct">
+                    <tr class="accr">
+                        <td class="accd">
+                            <input type="button" class="opt" value="Discover">
+                        </td>
+                        <td class="accd">
+                            <input type="button" class="opt" value="Browse">
+                        </td>
+                        <td class="accd">
+                            <input type="button" class="opt" value="News">
+                        </td>
+
+                    </tr>
+
+                </Table>
+
+            </div>
+        </div>
+        <div class="introdiv">
+            <div class="intro1">
+                <div class="imgs">
+                    <div class="datas">
+                        <div class="details">
+                            <label id="heading1" for="">DEAD BY DAYLIGHT</label>
+                            <br>
+                            <label id="heading2" for="">TOMB RAIDER</label><br><br><br>
+                            <label id="heading3" for="">NOW AVILABLE</label><br><br>
+                            <label id="heading4" for="">Adventure into unknown. Lara Croft has entered The
+                                Fog.</label><br><br><br>
+                            <label id="heading5" for="">$ 85.02</label><br>
+
+                            <div class="buy">
+                                <Table>
+                                    <tr>
+                                        <td>
+                                            <input type="button" class="btn" value="Buy Now">
+                                        </td>
+                                        <td>
+                                            <button class="btn btn1">
+                                                <i class="bi bi-plus-circle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-plus-circle"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                                        <path
+                                                            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                                    </svg>
+                                                </i>
+                                                <btn>Add to Wishlist</btn>
+                                            </button>
+
+
+
+                                        </td>
+                                    </tr>
+                                </Table>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="gameslst">
+
+                    <Table>
+                        <tr>
+                            <td>
+                                <div class="td td1">
+                                    <div class="img img1">
+
+                                    </div>
+                                    <name>RAWMEN</name>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td td1">
+                                    <div class="img img2">
+
+                                    </div>
+                                    <name>Summer Sale</name>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td td1">
+                                    <div class="img img3">
+
+                                    </div>
+                                    <name>Fontnite</name>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td td1">
+                                    <div class="img img4">
+
+                                    </div>
+                                    <name>Dead by Daylight</name>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td td1">
+                                    <div class="img img5">
+
+                                    </div>
+                                    <name>Wuthering Waves</name>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td td1">
+                                    <div class="img img6">
+
+                                    </div>
+                                    <name>Star Wars Outlaws</name>
+                                </div>
+                            </td>
+                        </tr>
+                    </Table>
+
+                </div>
+            </div>
+            <br><br><br>
+
+
+            <div class="list1">
+                <div class="header">
+                    <h2 style="color: white;">Top New Releases</h2>
+                    <i class="bi bi-chevron-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="white"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </i>
+
+                    <div class="lr">
+                        <div class="l">
+                            <i class="bi bi-chevron-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                </svg>
+                            </i>
+                        </div>
+                        <div class="r">
+                            <i class="bi bi-chevron-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="container  ">
+
+
+                    <Table>
+                        <tr>
+                            <td>
+                                <div class="all">
+                                    <div class="img img1">
+
+                                    </div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>EA SPORTS FC 24 STANDERD EDITION</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <center>-80%</center>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 19.9<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate"> $ 15.2</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="all">
+                                    <div class="img img2"></div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>Horizon Forbidden West Complete Edition</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <div class="offerbox">
+                                                                <center>-50%</center>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 100.4<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate">$ 50.2</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="all">
+                                    <div class="img img3"></div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>Crosshair X</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <div class="offerbox">
+                                                                <center>-25%</center>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 20<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate">$ 5</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="all">
+                                    <div class="img img4"></div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>Suicide Squad</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <div class="offerbox">
+                                                                <center>-70%</center>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 30<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate">$ 8</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="all">
+                                    <div class="img img5"></div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>Earth Defence Force 6</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <center>-50%</center>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 40<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate"> $ 20</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="all">
+                                    <div class="img img6"></div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>EA SPORTS FC 24 STANDERD EDITION</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <div class="offerbox">
+                                                                <center>-10%</center>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 100<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate">$ 10</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </Table>
+
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="list1">
+                <div class="header">
+                    <h2 style="color: white;">Top New Releases</h2>
+                    <i class="bi bi-chevron-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="white"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </i>
+
+                    <div class="lr">
+                        <div class="l">
+                            <i class="bi bi-chevron-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                </svg>
+                            </i>
+                        </div>
+                        <div class="r">
+                            <i class="bi bi-chevron-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="container  ">
+
+
+                    <Table>
+                        <tr>
+                            <td>
+                                <div class="all">
+                                    <div class="img img1">
+
+                                    </div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>EA SPORTS FC 24 STANDERD EDITION</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <center>-80%</center>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 19.9<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate"> $ 15.2</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="all">
+                                    <div class="img img2"></div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>Horizon Forbidden West Complete Edition</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <div class="offerbox">
+                                                                <center>-50%</center>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 100.4<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate">$ 50.2</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="all">
+                                    <div class="img img3"></div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>Crosshair X</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <div class="offerbox">
+                                                                <center>-25%</center>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 20<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate">$ 5</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="all">
+                                    <div class="img img4"></div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>Suicide Squad</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <div class="offerbox">
+                                                                <center>-70%</center>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 30<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate">$ 8</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="all">
+                                    <div class="img img5"></div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>Earth Defence Force 6</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <center>-50%</center>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 40<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate"> $ 20</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="all">
+                                    <div class="img img6"></div><br>
+                                    <div class="sub">
+                                        <bs>Basic Game</bs>
+                                    </div><br>
+                                    <div class="head">
+                                        <heading>EA SPORTS FC 24 STANDERD EDITION</heading>
+                                    </div>
+                                    <div class="price">
+                                        <Table>
+                                            <tr>
+                                                <td>
+                                                    <div class="offer">
+                                                        <div class="offerbox">
+                                                            <div class="offerbox">
+                                                                <center>-10%</center>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cutout"><del><doller>$ 100<doller></del></div>
+                                                </td>
+                                                <td>
+                                                    <div class="rate">$ 10</div>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </Table>
+
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+
+
+
+        <div class="footerdiv">
+            <div class="footerhead">
+                
+                <i class="bi bi-facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"  class="bi bi1 bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                    </svg>
+                </i>
+
+                <i class="bi bi-twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"  class="bi bi1 bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                      </svg>
+                </i>
+
+                <i class="bi bi-youtube">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"  class="bi bi1 bi-youtube" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                      </svg>
+                </i>
+
+                <div class="arro">
+                    
+
+                </div>
+            </div>
+            <br>
+            <h4>Resources</h4>
+
+            <Table>
+                <tr>
+                    <td>
+                        <h5>Support-A-Creator</h5>
+                    </td>
+                    <td>
+                        <h5>Fan Art Policy</h5>
+                    </td>
+                    <td>
+                        <h5>Online Services</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td><h5>Distribute on Epic Games    </h5></td>
+                    <td>
+                        <h5>UX Research</h5>
+                    </td>
+                    <td>
+                        <h5>Community Rules     </h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td><h5>Careers</h5></td>
+                    <td><h5>Store EULA</h5></td>
+                    <td><h5>Epic Newsroom   </h5></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </Table>
+
+            <br>
+
+            <h4>Made By Epic Games</h4>
+
+            <Table>
+                <tr>
+                    <td>
+                        <h5>Battle Breakers</h5>
+                    </td>
+                    <td>
+                        <h5>Robo Recall</h5>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td><h5>Fortnite    </h5></td>
+                    <td>
+                        <h5>Shadow Complex</h5>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td><h5>Infinity Blade</h5></td>
+                    <td><h5>Unreal Tournament</h5></td>
+                   
+                </tr>
+               
+            </Table>
+            <br>
+            <hr><br>
+            <div class="para">
+                <p>© 2024, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners.
+                    Our websites may contain links to other sites and resources provided by third parties. These links are provided for your convenience only. Epic Games has no control over the contents of those sites or resources, and accepts no responsibility for them or for any loss or damage that may arise from your use of them.</p>
+            
+
+            
+            </div>
+            <br><br><br><br><br><br>
+            <Table class="foot">
+                <tr>
+                    <td>
+                        <Table>
+                            <tr>
+                                <td>
+                                    <h5>Terms of Service</h5>
+                                </td>
+                                <td>
+                                    <h5>Privacy Policy</h5>
+                                </td>
+                                <td>
+                                    <h5>Store Refund Policy</h5>
+                                </td>
+                            </tr>
+                        </Table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" class="log" viewBox="0 0 32 32" fill-rule="evenodd" height="32" width="32" fill="white">
+                                        <path d="M12.349 21l-.39.982h.773L12.349 21zm2.29-10.224V7.909c0-.457-.21-.668-.648-.668h-.713v4.204h.713c.438 0 .648-.212.648-.668zm11.698-9.019H5.36c-1.702 0-2.328.627-2.328 2.328v20.526l.025.537c.038.372.047.732.392 1.14a7.23 7.23 0 0 0 .387.302l.533.248 10.329 4.327c.537.245.76.342 1.15.333h.003c.39.008.613-.088 1.15-.333l10.329-4.327.533-.248.387-.302c.345-.41.353-.77.392-1.14a5.28 5.28 0 0 0 .025-.537V4.086c0-1.702-.628-2.328-2.328-2.328h-.002zm-9.181 3.952h1.735v11.404h-1.735V5.709zm.117 14.181h1.01v3.45h-.952v-1.982l-.882 1.35h-.02l-.877-1.34v1.972h-.937v-3.45h1.01l.823 1.337.823-1.337zm-5.73-14.181h2.723c1.41 0 2.108.7 2.108 2.118v3.03c0 1.417-.697 2.118-2.108 2.118h-.988v4.139h-1.735V5.709zm-4.729 0h3.859v1.58H8.549v3.225h2.043v1.58H8.549v3.438h2.157v1.58H6.814V5.709zm3.317 17.169c-.365.3-.873.532-1.498.532-1.075 0-1.878-.74-1.878-1.785v-.01c0-1.005.788-1.795 1.858-1.795.607 0 1.035.187 1.4.503l-.562.675c-.247-.207-.493-.325-.833-.325-.498 0-.882.418-.882.947v.01a.91.91 0 0 0 .937.957c.232 0 .41-.05.552-.143v-.418h-.68v-.7h1.587v1.553zm1.765-3.012h.922l1.468 3.475h-1.025l-.252-.617h-1.332l-.247.617h-1.005l1.468-3.475h.002zm3.874 9.231l-4.862-1.672h9.931l-5.069 1.672zm5.947-5.755h-2.8v-3.45h2.775v.813h-1.828v.523h1.657v.755h-1.657v.547h1.854v.813-.002zm-1.907-8.249V7.729c0-1.417.697-2.118 2.108-2.118h.843c1.41 0 2.092.685 2.092 2.102v2.33h-1.702V7.811c0-.457-.212-.668-.648-.668h-.292c-.453 0-.665.212-.665.668v7.2c0 .457.212.668.665.668h.325c.438 0 .648-.212.648-.668v-2.573h1.702v2.655c0 1.417-.697 2.119-2.108 2.119h-.86c-1.41 0-2.108-.7-2.108-2.119zm5.165 7.184c0 .705-.557 1.123-1.395 1.123-.612 0-1.193-.192-1.617-.572l.532-.637a1.77 1.77 0 0 0 1.118.413c.257 0 .395-.088.395-.237v-.01c0-.143-.113-.222-.582-.33-.735-.168-1.302-.375-1.302-1.085v-.01c0-.642.508-1.105 1.337-1.105.587 0 1.045.158 1.42.458l-.478.675c-.315-.222-.66-.34-.967-.34-.232 0-.345.098-.345.222v.01c0 .158.118.227.597.335.793.173 1.287.428 1.287 1.075v.01.003z">
+                                        </path>
+                                    </svg></div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10 10 10 0 0 0 -10-10 10 10 0 0 0 -10 10m3.24 6.76c-1.81-1.81-2.8-4.21-2.8-6.76s.99-4.95 2.8-6.76 4.21-2.8 6.76-2.8 4.95.99 6.76 2.8 2.8 4.21 2.8 6.76-.99 4.95-2.8 6.76-4.21 2.8-6.76 2.8-4.95-.99-6.76-2.8m1.11-9.26c-2.01 2.29-1.62 4.18-1.62 4.18s.55-1.3 1.88-2.68c.64-.63 1.11-.85 1.43-.85.36 0 .53.26.53.5v4.64c0 .46-.3.56-.57.55-.23 0-.45-.08-.45-.08 1.37 1.97 4.64 2.24 4.64 2.24l1.44-1.5h.04l1.33 1.13c2.39-1.42 3.55-4.05 3.55-4.05-1.05 1.12-1.76 1.39-2.16 1.38-.36 0-.51-.21-.51-.21-.01-.1-.06-5.85.01-5.85.42-.77 1.74-2.34 1.74-2.34-2.47.49-3.82 2.1-3.82 2.1-.4-.31-1.22-.26-1.22-.26.38.21.76.81.76 1.32v4.93s-.85.73-1.47.73c-.38 0-.61-.21-.74-.38-.09-.12-.14-.21-.14-.21v-6.1c-.07.06-.18.11-.29.11-.14-.01-.28-.07-.37-.27-.08-.15-.12-.38-.12-.7 0-1.13 1.28-1.87 1.28-1.87-1.63.43-3.14 1.26-5.15 3.54" fill="white"/></svg>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </Table>
+            
+        </div>
+        
+
+    </div>
+</body>
+
+</html>
